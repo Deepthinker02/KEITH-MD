@@ -1,4 +1,4 @@
-{
+ {
   "name": "KEITH-MD",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/Keithkeizzah/KEITH-MD2#readme",
   "repository": "https://github.com/Keithkeizzah/KEITH-MD2.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
+  "logo": "https://i.ibb.co/v4CMGHY/1710520380815.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -40,7 +40,7 @@
     },
     "ANTICALL": {
       "description": "Type true if you want the bot to decline unnecessary calls ",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "PM_PERMIT": {
@@ -50,13 +50,13 @@
       },
     "ANTI_BAD_WORD": {
       "description": "Type true if you want bot to automatically detect bad words and remove or block in your pm ",
-      "value": "true",
+      "value": "false",
       "required": false
    
     },
     "CODE": {
       "description": "Enter your country code without +. Example: 254 for Kenya. This will allow bot to detect and remove foreigners if commanded",
-      "value": "254",
+      "value": "92",
       "required": true
     },
     "STICKER_AUTHOR": {
@@ -84,7 +84,7 @@
     },
     "AUTOVIEW_STATUS": {
       "description": "Type true if you want bot to automatically read all status update",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 
@@ -95,7 +95,7 @@
     },
 "AUTOBIO": {
       "description": "Type true if you want bot to autoupdate it's bio constantly",
-      "value": "true",
+      "value": "false",
       "required": false
     },
 
@@ -127,7 +127,7 @@
     },
     "WA_PRESENCE": {
       "description": "This is your WhatsApp Presence Status: Here's how to set it up: Type *typing* if you want bot to show typing..., Type *recording* if you want bot to show recording..., Type *online* if you want bot to be always online, Leave this field blank if you want bot to show your actual presence.",
-      "value": "typing",
+      "value": "null",
       "required": false
     },
     "MODE": {
